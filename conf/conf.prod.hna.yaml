@@ -1,0 +1,13 @@
+env: "prod"
+
+coupon:
+  pid: ""
+  addr: ":8188"
+
+
+redis:
+  addr: "127.0.0.1:6379"
+
+db:
+  dialect: "sqlite3"
+  args: "./coupon.db"
